@@ -1,2 +1,2 @@
 # Demo
-This project is about microservices that handle customer information along with its dependent. 
+This project is about microservices that handle customer information along with its dependents. 
