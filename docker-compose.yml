@@ -1,0 +1,11 @@
+services:
+  db:
+    container_name:
+      edir-postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: edir
+      POSTGRES_PASSWORD: Clarkston14
+    ports:
+      - "5332:5432"
+    restart: unless-stopped
